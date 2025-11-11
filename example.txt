@@ -1,2 +1,5 @@
-(vars.eanCode default "") ++ (if (vars.eanCode default "") != "" then "|" else "") ++ (payload.Units_Of_Measure.EAN_Code as String)
+
+%dw 2.0
+output text/plain
+---
 (vars.eanCode default "") ++ (if (vars.eanCode default "") != "" then "|" else "") ++ (payload.Units_Of_Measure.EAN_Code as String)
