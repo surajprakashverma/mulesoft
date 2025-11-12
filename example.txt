@@ -1,5 +1,54 @@
-
-%dw 2.0
-output text/plain
----
-(vars.eanCode default "") ++ (if (vars.eanCode default "") != "" then "|" else "") ++ (payload.Units_Of_Measure.EAN_Code as String)
+Article Number
+Article Description
+Article Category Code
+Article Category Description
+Article Deletion Flag
+Article Ordering Date
+Article Type Code
+Article Type Description
+Article Valid To Date
+Base Merchandise Category - Code
+Base Merchandise Category - Description
+Country of Origin - Code
+Country of Origin - Name
+Country of Origin - ISO
+Created By
+Created On
+Last Modified By
+Last Modified On
+Electrical WEEE
+Exclusive
+Exclusive From
+Exclusive To
+Own Brand
+Product License Number
+Purchasing Group Code
+Purchasing Group Name
+Remaining Shelf Life
+Staff Discount Allowed
+Storage Percentage
+Total Shelf Life
+Workflow Status
+X-Site Status Valid From Date
+EAN Code
+EAN Category Code
+EAN Category Description
+EAN Length
+Article Hierarchy Code
+Article Hierarchy Description
+Article Hierarchy Parent Code
+Article Hierarchy Modify Flag Code
+Mainframe Hierarchy Code
+Mainframe Hierarchy Desc
+Parent Code
+Level
+License Type Code
+License Type Description
+Type Code
+Type  Description
+Vendor Account Number
+Vendor Subrange
+Prior Vendor
+Regular Vendor
+Mainframe_Hierarchy_Full 
+Article_Hierarchy_Full
