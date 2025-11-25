@@ -1,1 +1,1 @@
-"Product_" ++ (now() as String {format: "yyyy-MM-dd"}) ++ ".csv"
+https://login.salesforce.com/services/Soap/u/55.0
